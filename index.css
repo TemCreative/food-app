@@ -1,0 +1,12 @@
+@media all and (max-width: 500px){
+    .cse{
+  display: none;
+  visibility: hidden;
+  background: none;
+    }
+    .cs{
+        display: none;
+        visibility: hidden;
+        background: none;
+      }
+    }
