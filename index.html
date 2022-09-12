@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="test()">
   <nav style="font-family: sans-serif;" class="navbar navbar-expand-lg fw-bold bg-primary display-8" id="nav">
     <div class="container-fluid">
       <a class="navbar-brand text-light " href="#"> <img src="/images/mappp-14.png" width="60px" alt="">Oily</a>
@@ -87,7 +87,7 @@
       const test =async() => {
         let response = await endPoint
         let jsonResponse = await response.json()
-        jsonResponse.results.food.map((value) =>{
+        jsonResponse.results.food.map((value) =>{ 
           console.log(value)
           document.getElementById()
         })
